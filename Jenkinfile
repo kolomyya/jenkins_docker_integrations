@@ -15,7 +15,7 @@ pipeline {
     stages{
         stage("Git Pull"){
             steps{
-                git 'https://github.com/kolomyya/terraform.git'
+                git 'git@github.com:kolomyya/terraform.git'
             }
         }
         stage("Hello"){
